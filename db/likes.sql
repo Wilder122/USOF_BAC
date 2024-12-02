@@ -1,0 +1,8 @@
+USE usof;
+
+CREATE TABLE IF NOT EXISTS likes (
+    id INT(11) AUTO_INCREMENT,
+    login VARCHAR(31) NOT NULL,
+    idPost INT(11) NOT NULL,
+    PRIMARY KEY (id)
+);

@@ -1,0 +1,8 @@
+USE usof;
+
+CREATE TABLE IF NOT EXISTS commLike (
+    id INT(11) AUTO_INCREMENT,
+    login VARCHAR(31) NOT NULL,
+    idComm INT(11) NOT NULL,
+    PRIMARY KEY (id)
+);

@@ -1,0 +1,8 @@
+USE usof;
+
+CREATE TABLE IF NOT EXISTS categories (
+    id INT(11) AUTO_INCREMENT,
+    title VARCHAR(255) NOT NULL UNIQUE,
+    description VARCHAR(2000) NOT NULL,
+    PRIMARY KEY (id)
+);
