@@ -1,12 +1,8 @@
-USOF api
-
 # For start server<br>
     -npm install<br>
     -npm start
 
 *Pls, if you want start project, change data for you e-mail in services/mail-service.js 
-
-Endpoints
 
 # •Authentication module:<br>
     –POST - /api/auth/register- registration of a new user, required parameters are[login, password, fullName, email, avatar]<br>
